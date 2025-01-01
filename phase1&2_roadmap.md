@@ -1,5 +1,3 @@
-# Let's write the roadmap content into a .md file for the user to check into their GitHub repository.
-
 roadmap_content = """
 # Roadmap for Becoming a Lead Generative AI Engineer
 
@@ -100,10 +98,5 @@ roadmap_content = """
 
 By the end of these phases, you will have a solid foundation in generative AI and practical experience in building, deploying, and managing models.
 """
-
-# Save the roadmap content to a .md file
-file_path = "/mnt/data/Generative_AI_Roadmap_Phases_1_and_2.md"
-with open(file_path, "w") as file:
-    file.write(roadmap_content)
 
 file_path
